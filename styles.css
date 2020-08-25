@@ -58,10 +58,19 @@ h2 {
     width: 100%;
 
     position: relative;
-    top: 10%;
+    top: 50px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.links {
-    justify-content: space-between;
+.linkArea a {
+    text-decoration: none;
+}
+
+.linkArea a:hover {
+    text-decoration: underline;
+}
+
+.linkArea a, a:visited {
+    color: cornflowerblue;
 }
