@@ -55,10 +55,13 @@ h2 {
 .linkArea {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
+
+    position: relative;
+    top: 10%;
+    align-items: center;
 }
 
 .links {
-    align-items: center;
+    justify-content: space-between;
 }
