@@ -1,5 +1,6 @@
 var activities = ['developing new projects', 'programming', 'building a website', 'analyzing data', 'rock climbing', 'jumping off a cliff']
 
+changeNum();
 var changeActivity = setInterval(changeNum, 3000);
 
 function changeNum() {
