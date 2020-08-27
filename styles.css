@@ -2,6 +2,8 @@ body {
     background: #f2f2f2;
     margin: 0px;
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -73,4 +75,9 @@ h2 {
 
 .linkArea a, a:visited {
     color: cornflowerblue;
+}
+
+.main {
+    width: 80%;
+    align-self: center;
 }
