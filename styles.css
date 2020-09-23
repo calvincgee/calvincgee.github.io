@@ -15,6 +15,10 @@ h2 {
     font-size: 30px;
 }
 
+p {
+    margin: 0px;
+}
+
 .header {
     background: linear-gradient(to top, #373737, #212121);
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
