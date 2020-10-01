@@ -85,3 +85,14 @@ p {
     width: 80%;
     align-self: center;
 }
+
+.skills {
+    margin-bottom: 50px;
+}
+
+.skills_images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
