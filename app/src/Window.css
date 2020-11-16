@@ -1,0 +1,57 @@
+.window {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    margin: 5px;
+}
+
+.windowText {
+    position: absolute;
+    bottom: 0;
+   
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    height: 25px;
+    width: 200px;
+
+    transition: 1s ease;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.window:hover .windowText {
+    height: 150px;
+}
+
+.windowTitle {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.windowDesc {
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.windowLink {
+    text-decoration: underline;
+    color: #f1f1f1;
+    opacity: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    transition: 1s ease;
+}
+
+.window:hover .windowDesc, .window:hover .windowLink {
+    opacity: 1;
+    transition: .5s ease;
+}

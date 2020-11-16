@@ -4,6 +4,13 @@ body {
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 h1 {
@@ -17,6 +24,11 @@ h2 {
 
 p {
     margin: 0px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -77,13 +89,19 @@ p {
     text-decoration: underline;
 }
 
-.linkArea a, a:visited {
+.linkArea a, .linkArea a:visited {
     color: cornflowerblue;
 }
 
 .main {
     width: 80%;
     align-self: center;
+}
+
+.projDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .skills {
