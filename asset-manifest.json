@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ad63a009.chunk.css",
+    "main.js": "/static/js/main.e20a34a3.chunk.js",
+    "main.js.map": "/static/js/main.e20a34a3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.38e4c213.js",
+    "runtime-main.js.map": "/static/js/runtime-main.38e4c213.js.map",
+    "static/js/2.ecbdf1aa.chunk.js": "/static/js/2.ecbdf1aa.chunk.js",
+    "static/js/2.ecbdf1aa.chunk.js.map": "/static/js/2.ecbdf1aa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ad63a009.chunk.css.map": "/static/css/main.ad63a009.chunk.css.map",
+    "static/js/2.ecbdf1aa.chunk.js.LICENSE.txt": "/static/js/2.ecbdf1aa.chunk.js.LICENSE.txt",
+    "static/media/connect-four.c55ee4f7.jpg": "/static/media/connect-four.c55ee4f7.jpg",
+    "static/media/diff-file.dd553f16.jpg": "/static/media/diff-file.dd553f16.jpg",
+    "static/media/flask-logo.1d18708b.png": "/static/media/flask-logo.1d18708b.png",
+    "static/media/mancala.e93de410.jpg": "/static/media/mancala.e93de410.jpg",
+    "static/media/march-madness.1167afdd.jpg": "/static/media/march-madness.1167afdd.jpg",
+    "static/media/postgresql-logo.fe81e86a.png": "/static/media/postgresql-logo.fe81e86a.png",
+    "static/media/python-logo.da65b14d.png": "/static/media/python-logo.da65b14d.png",
+    "static/media/react_logo.887f90e5.png": "/static/media/react_logo.887f90e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38e4c213.js",
+    "static/js/2.ecbdf1aa.chunk.js",
+    "static/css/main.ad63a009.chunk.css",
+    "static/js/main.e20a34a3.chunk.js"
+  ]
+}
