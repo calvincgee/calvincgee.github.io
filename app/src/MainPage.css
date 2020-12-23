@@ -1,0 +1,88 @@
+.mainpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: linear-gradient(to top, #373737, #212121);
+    font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+    color: #fff;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    font-size: 72px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.border {
+    height: fit-content;
+    background: grey;
+    
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+}
+
+#activityBox {
+    margin: 0px;
+}
+
+.linkArea {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    position: relative;
+    top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linkArea a {
+    text-decoration: none;
+}
+
+.linkArea a:hover {
+    text-decoration: underline;
+}
+
+.linkArea a, .linkArea a:visited {
+    color: cornflowerblue;
+}
+
+.main {
+    width: 80%;
+    align-self: center;
+}
+
+.projDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills {
+    margin-bottom: 50px;
+}
+
+.skills_images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
